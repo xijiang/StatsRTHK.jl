@@ -1,5 +1,6 @@
 module StatsRTHK
+using Distributions, Random, StatsPlots
 
-greet() = print("Hello World!")
+include("week01.jl")
 
 end # module
